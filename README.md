@@ -1,8 +1,15 @@
 # Exoplanet explorer
 This app lets you explore a [dataset of exoplanet data](public/data/phl_hec_all_confirmed.csv) by plotting any two variables from the dataset on a scatterplot.
 
+## Installation
+
+`npm install && npm start`
+
+This will install dependencies and start a development server where you can preview the app.
+
+
 ## Architecture
-This app uses [**React**](https://reactjs.org) for handling user events and application state and [**d3.js**](https://d3js.org)for rendering the scatterplot visualization.
+This app uses [**React**](https://reactjs.org) for handling user events and application state and [**d3.js**](https://d3js.org) for rendering the scatterplot visualization.
 
 ### Build system
 The build system is a standard [`create-react-app`](https://github.com/facebook/create-react-app) setup. I didn't need to modify it in any way for this app.
