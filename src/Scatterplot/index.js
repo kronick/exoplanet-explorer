@@ -86,9 +86,6 @@ export default class Scatterplot extends Component {
 
 
     // Set range based on window size
-    const paddingX = 10;
-    const paddingY = 10;
-
     const rangeX = [
       this.props.paddingX,
       this.state.dimensions.width - this.props.paddingX
