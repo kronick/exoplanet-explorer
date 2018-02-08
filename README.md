@@ -1,6 +1,8 @@
 # Exoplanet explorer
 This app lets you explore a [dataset of exoplanet data](public/data/phl_hec_all_confirmed.csv) by plotting any two variables from the dataset on a scatterplot.
 
+![](screencap.gif)
+
 ## Installation
 
 `npm install && npm start`
